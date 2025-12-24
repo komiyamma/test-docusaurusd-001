@@ -284,7 +284,7 @@ VS Code がちゃんと怒ってくれます(笑) 😇
 
 1. `remainingSeats` という `number` の state を用意する
 2. `remainingSeats > 0` のときだけ
-   「残り {remainingSeats} 席です🎫」を表示
+   「残り `{remainingSeats}` 席です🎫」を表示
 3. `残り席を減らす` ボタンを作って、クリックのたびに `-1` する
 
 👉 ヒント：

@@ -61,7 +61,7 @@ export const useCounterStore = create<CounterStore>()((set) => ({
 }))
 ```
 
-この「create<型>()(…)」の書き方は、TypeScriptガイドでも案内されてる定番だよ😊 ([Zustand Documentation][2])
+この「`create<型>()`(...)」の書き方は、TypeScriptガイドでも案内されてる定番だよ😊 ([Zustand Documentation][2])
 
 ---
 

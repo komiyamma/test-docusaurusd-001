@@ -23,14 +23,14 @@
 
 第71〜72章で出てきたイメージを、簡単に図で思い出しておきましょう。
 
-++++mermaid
+```mermaid
 graph TD;
 Root[ルート] --> App[App コンポーネント];
 App --> Provider[UserContext.Provider<br/>（データ置き場）];
 Provider --> A[プロフィール表示コンポーネント];
 Provider --> B[ヘッダーメニュー];
 App --> Outside[Providerの外側のコンポーネント];
-++++
+```
 
 * `UserContext.Provider` の **内側の子コンポーネント** は、`UserContext` から値を読める ✅
 * `Provider` の **外側** で `UserContext` を読もうとすると、**デフォルト値** が返る ✅
@@ -46,7 +46,7 @@ App --> Outside[Providerの外側のコンポーネント];
 
 #### 🌟 よく出てくる書き方
 
-++++ts
+```ts
 // ① Contextの中身の型を先に定義する
 export type UserContextValue = {
 userName: string;
@@ -57,7 +57,7 @@ setUserName: (value: string) => void;
 import { createContext } from "react";
 
 export const UserContext = createContext<UserContextValue | null>(null);
-++++
+```
 
 ポイントはココ 👇
 
@@ -83,12 +83,12 @@ React公式の TypeScript ガイドでも、
 
 #### ❌ こう書くと怒られるやつ
 
-++++ts
+```ts
 // ❌ TypeScript に怒られるパターン
 const UserContext = createContext<UserContextValue>(null);
 //                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Type 'null' is not assignable to type 'UserContextValue' みたいなエラー
-++++
+```
 
 * 型の宣言では「**必ず `UserContextValue` が入るよ！**」と言っておきながら
 * 実際の値は `null` を渡しているので、TypeScript からすると
@@ -113,7 +113,7 @@ const UserContext = createContext<UserContextValue>(null);
 
 `src/contexts/UserContext.tsx` みたいなファイルを作るイメージで OK です。
 
-++++ts
+```ts
 // src/contexts/UserContext.tsx
 
 // Contextの「中身」の型
@@ -121,7 +121,7 @@ export type UserContextValue = {
 userName: string;                       // 今ログイン中のユーザー名
 setUserName: (value: string) => void;   // ユーザー名を更新する関数
 };
-++++
+```
 
 ここは普通の TypeScript の `type` ですね 👍
 
@@ -131,13 +131,13 @@ setUserName: (value: string) => void;   // ユーザー名を更新する関数
 
 続きで `createContext` を書きます。
 
-++++ts
+```ts
 import { createContext } from "react";
 import type { UserContextValue } from "./UserContextValue"; // 同じファイルなら不要
 
 // 「中身は UserContextValue だけど、nullの可能性もあるよ」という Context 型
 export const UserContext = createContext<UserContextValue | null>(null);
-++++
+```
 
 ここでやっていることは…
 
@@ -156,7 +156,7 @@ export const UserContext = createContext<UserContextValue | null>(null);
 
 この章のメインは「型定義」ですが、イメージしやすいように Provider もざっくり書いておきます。
 
-++++ts
+```ts
 // src/contexts/UserContext.tsx
 
 import { createContext, useState } from "react";
@@ -189,7 +189,7 @@ return (
 </UserContext.Provider>
 );
 }
-++++
+```
 
 大事なポイントはここ 👇
 

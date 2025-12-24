@@ -303,7 +303,7 @@ export function ItemListPage() {
 
 この例で使っているもの：
 
-* `navigate(`/items/${id}`)` … 文字列パスで移動
+* ``navigate(`/items/${id}`)`` … 文字列パスで移動
 * `navigate(-1)` … 履歴を使った「戻る」
 
 ---
@@ -344,7 +344,7 @@ export function ItemListPage() {
 
 3. アイテム一覧から
 
-   * `navigate(`/items/${id}`)` で詳細ページへ移動するボタンを作る
+   * ``navigate(`/items/${id}`)`` で詳細ページへ移動するボタンを作る
 
 次の章では、フォルダの分け方や絶対パスインポートなど、
 **プロジェクトの整理術** に入っていきます 🗂️✨
