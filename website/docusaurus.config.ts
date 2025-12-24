@@ -98,6 +98,12 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'reactStudySidebar',
+          position: 'left',
+          label: 'React Study',
+        },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
