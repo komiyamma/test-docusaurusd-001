@@ -146,8 +146,8 @@ Reactは**状態（State）が真実**。**JSXはその写し鏡**。
 
 ```mermaid
 flowchart LR
-  State[State(真実のデータ)] --> JSX[JSX(宣言)]
-  JSX --> DOM[DOM(ブラウザの見た目)]
+  State["State(真実のデータ)"] --> JSX["JSX(宣言)"]
+  JSX --> DOM["DOM(ブラウザの見た目)"]
   click State "https://ja.react.dev/learn" "Reactの学習ガイド(参考にどうぞ)"
 ```
 
