@@ -125,7 +125,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'nextStudySidebar',
           position: 'left',
-          label: 'Next Study Blog',
+          label: 'Next Study',
         },
         {
           type: 'docSidebar',
