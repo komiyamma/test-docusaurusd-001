@@ -16,6 +16,8 @@
 
 ## 1️⃣ まずは「役割」のイメージをつかもう
 
+![Button Blueprint](picture/react_study_029_button_blueprint.png)
+
 今回の役割分担はこんな感じです 👇
 
 * **親コンポーネント（例：`App.tsx`）**

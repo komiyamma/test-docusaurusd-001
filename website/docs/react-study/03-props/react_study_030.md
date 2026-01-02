@@ -94,6 +94,8 @@ type ProfileProps = {
 
 ## 4️⃣ Mermaidでイメージ図を見てみよう 🧠✨
 
+![Optional Props](picture/react_study_030_optional_props.png)
+
 オプショナルPropsのイメージを図にしてみます👇
 
 ```mermaid

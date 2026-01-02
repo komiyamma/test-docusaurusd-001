@@ -118,6 +118,8 @@ export function App() {
 
 ### 28-4 📊 Mermaidで「データの流れ」をイメージしよう
 
+![Callback Signal](picture/react_study_028_callback_signal.png)
+
 関数Propsの流れを図にすると、こんなイメージです 🧩
 
 ```mermaid
