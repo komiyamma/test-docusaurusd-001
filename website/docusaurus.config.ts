@@ -8,7 +8,7 @@ import * as path from 'path';
 
 const config: Config = {
   title: 'react-study.komiyamma.net',
-  tagline: 'React入門者用の学習教材',
+  tagline: 'React/Next入門者用の学習教材',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
