@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/react_logo.svg').default,
     description: (
       <>
-        コンポーネント、Hooks、State管理など、モダンなReact開発の基礎を体系的に学びます。
+        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。
       </>
     ),
   },
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/nextjs_logo.svg').default,
     description: (
       <>
-        App Router、Server Actions、SSR/SSGなど、Next.jsによるフルスタック開発を習得します。
+        App Router、Server Actions、SSR/SSGなど、<br/>Next.jsによるフルスタック開発を習得します。
       </>
     ),
   },
