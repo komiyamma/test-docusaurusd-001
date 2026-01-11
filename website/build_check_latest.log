@@ -22,3 +22,7 @@ Your content might render in an unexpected way. Visit https://github.com/faceboo
 - :contentReference (16:13)
 - :contentReference (55:59)
 Your content might render in an unexpected way. Visit https://github.com/facebook/docusaurus/pull/9394 to find out why and how to fix it.
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Server: Compiled successfully in 28.43s
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Client: Compiled successfully in 36.83s
+[SUCCESS] Generated static files in "build\en".
+[INFO] Use `npm run serve` command to test your build locally.
