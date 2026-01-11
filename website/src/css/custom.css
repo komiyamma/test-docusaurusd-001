@@ -20,8 +20,8 @@
   /* Sidebar width 400px -> 430px (Refined by user) */
   --doc-sidebar-width: 430px;
   
-  /* Cap the width at 1700px for readability on 4K screens */
-  --ifm-container-width: 1700px;
+  /* Cap the width at 1770px for readability on 4K screens */
+  --ifm-container-width: 1770px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
