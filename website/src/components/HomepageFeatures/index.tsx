@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -7,6 +8,7 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -18,6 +20,7 @@ const FeatureList: FeatureItem[] = [
         コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。<br/>2026年1月最新<br/>
       </>
     ),
+    link: '/docs/react-study/react_index',
   },
   {
     title: 'Next Study',
@@ -27,14 +30,17 @@ const FeatureList: FeatureItem[] = [
         App Router、Server Actions、SSR/SSGなど、<br/>Next.jsによるフルスタック開発を習得します。
       </>
     ),
+    link: '/docs/next-study/next_index',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Link to={link}>
+          <Svg className={styles.featureSvg} role="img" />
+        </Link>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
