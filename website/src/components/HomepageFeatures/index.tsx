@@ -17,7 +17,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/react_logo.svg').default,
     description: (
       <>
-        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。<br/>2026年1月最新<br/>
+        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。<br/>React v19系。<br/>2026年1月の最新系が基準。<br/>
       </>
     ),
     link: '/docs/react-study/react_index',
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/nextjs_logo.svg').default,
     description: (
       <>
-        App Router、Server Actions、SSR/SSGなど、<br/>Next.jsによるフルスタック開発を習得します。
+        App Router、Server Actions、SSR/SSGなど、<br/>Next.jsによるフルスタック開発を習得します。<br/>Next.js v16系。<br/>2026年1月の最新系が基準。<br/>
       </>
     ),
     link: '/docs/next-study/next_index',
