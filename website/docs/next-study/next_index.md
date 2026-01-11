@@ -26,7 +26,7 @@ flowchart TD
 
 ---
 
-# 🌱 Module 1：Next.jsってなに？全体像をつかむ（1〜10章）✨
+## 🌱 Module 1：Next.jsってなに？全体像をつかむ（1〜10章）✨
 
 * **第1章：Next.js は「Reactに翼をつける」感じ🪽**
 * **第2章：できること一覧：ルーティング/SSR/SEO/APIまで！🧰**
@@ -41,7 +41,7 @@ flowchart TD
 
 ---
 
-# 🚀 Module 2：プロジェクト作成と初期設定（11〜22章）🛠️
+## 🚀 Module 2：プロジェクト作成と初期設定（11〜22章）🛠️
 
 * **第11章：`npx create-next-app@latest` で作る🎉** ([Next.js][2])
 * **第12章：作成時の質問（TS/ESLint/alias）を理解する✅**
@@ -58,7 +58,7 @@ flowchart TD
 
 ---
 
-# 🧱 Module 3：App Router 基本（23〜36章）🧭
+## 🧱 Module 3：App Router 基本（23〜36章）🧭
 
 * **第23章：`app/page.tsx` が「/」だよ🏠**
 * **第24章：`layout.tsx` が外枠（ヘッダー/フッター）になる🧱**
@@ -95,7 +95,7 @@ flowchart LR
 
 ---
 
-# 🧩 Module 4：コンポーネント設計（37〜48章）🧱✨
+## 🧩 Module 4：コンポーネント設計（37〜48章）🧱✨
 
 * **第37章：Server Component がデフォルトって覚えよう🧊**
 * **第38章：`"use client"` の意味（必要な時だけ！）🎮**
@@ -112,7 +112,7 @@ flowchart LR
 
 ---
 
-# 🎨 Module 5：スタイリング（49〜60章）💅✨
+## 🎨 Module 5：スタイリング（49〜60章）💅✨
 
 * **第49章：CSSの選択肢：CSS Modules / Tailwind / CSS-in-JS ざっくり🎛️**
 * **第50章：CSS Modules 基本：`styles.module.css` 🧵**
@@ -129,7 +129,7 @@ flowchart LR
 
 ---
 
-# 🧭 Module 6：ルーティング応用（61〜74章）🛣️🧠
+## 🧭 Module 6：ルーティング応用（61〜74章）🛣️🧠
 
 * **第61章：`useRouter` / `usePathname` の使いどころ🧭**
 * **第62章：Dynamic Routeで詳細ページを作る🔍**
@@ -148,7 +148,7 @@ flowchart LR
 
 ---
 
-# 📡 Module 7：データ取得（基本）とキャッシュ感覚（75〜90章）🧊💧
+## 📡 Module 7：データ取得（基本）とキャッシュ感覚（75〜90章）🧊💧
 
 * **第75章：Serverで `fetch` するのが基本になる話🍵**
 * **第76章：`fetch` の結果が“勝手に速くなる”理由（キャッシュ）⚡**
@@ -184,7 +184,7 @@ flowchart TD
 
 ---
 
-# 🌊 Module 8：Suspense / Streaming / エラー設計（91〜104章）🧯⏳
+## 🌊 Module 8：Suspense / Streaming / エラー設計（91〜104章）🧯⏳
 
 * **第91章：`Suspense` は“待つUI”を部品化する🫧**
 * **第92章：`fallback` の作り方（軽くてOK）🧸**
@@ -203,7 +203,7 @@ flowchart TD
 
 ---
 
-# 🧪 Module 9：Route Handlers（API）入門（105〜118章）🚪🧰
+## 🧪 Module 9：Route Handlers（API）入門（105〜118章）🚪🧰
 
 * **第105章：Route Handlerってなに？（アプリ内API）🧪**
 * **第106章：`app/api/xxx/route.ts` の基本🗂️**
@@ -222,7 +222,7 @@ flowchart TD
 
 ---
 
-# 🧤 Module 10：MiddlewareとEdgeの考え方（119〜132章）🌐⚡
+## 🧤 Module 10：MiddlewareとEdgeの考え方（119〜132章）🌐⚡
 
 * **第119章：Middlewareってなに？（ルートに入る前の門番）🧤**
 * **第120章：どんな時に使う？（ログイン判定/リダイレクト）🚦**
@@ -241,7 +241,7 @@ flowchart TD
 
 ---
 
-# 🧾 Module 11：Server Actions & フォーム革命（133〜150章）🚀📨
+## 🧾 Module 11：Server Actions & フォーム革命（133〜150章）🚀📨
 
 Next.jsの Server Actions は、フォーム送信をかなり自然にしてくれるよ〜！ ([Next.js][4])
 
@@ -266,7 +266,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🔐 Module 12：セキュリティ基本（XSS/CSRF/依存更新）（151〜160章）🛡️🧠
+## 🔐 Module 12：セキュリティ基本（XSS/CSRF/依存更新）（151〜160章）🛡️🧠
 
 * **第151章：XSSってなに？（ユーザー入力は信用しない）🧨**
 * **第152章：dangerouslySetInnerHTML は最終手段🙅**
@@ -281,7 +281,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🗄️ Module 13：DBとCRUD（Prisma想定）（161〜174章）🧱🗃️
+## 🗄️ Module 13：DBとCRUD（Prisma想定）（161〜174章）🧱🗃️
 
 * **第161章：DBを使うと何が嬉しい？（永続化）🗃️**
 * **第162章：ORMってなに？（SQLを安全に扱う）🧩**
@@ -300,7 +300,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 👤 Module 14：認証（Auth.js/NextAuth系の考え方）（175〜188章）🔑✨
+## 👤 Module 14：認証（Auth.js/NextAuth系の考え方）（175〜188章）🔑✨
 
 * **第175章：ログインって裏で何してる？（セッション/トークン）🧠**
 * **第176章：Next.jsの認証は“方式を選ぶ”から始まる🎛️**
@@ -319,7 +319,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🧰 Module 15：画像・フォント・SEO（189〜202章）🖼️🔎
+## 🧰 Module 15：画像・フォント・SEO（189〜202章）🖼️🔎
 
 * **第189章：`next/image` の考え方（速くて綺麗）📸**
 * **第190章：画像のサイズ指定とレイアウト崩れ対策🧱**
@@ -338,7 +338,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🧪 Module 16：テスト（Vitest / RTL / E2E）（203〜218章）🧫🧪
+## 🧪 Module 16：テスト（Vitest / RTL / E2E）（203〜218章）🧫🧪
 
 * **第203章：テストは未来の自分の味方🫶**
 * **第204章：ユニット/統合/E2E の違い🧠**
@@ -359,7 +359,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🚢 Module 17：デプロイ & 運用（Vercel中心）（219〜232章）🌍🚀
+## 🚢 Module 17：デプロイ & 運用（Vercel中心）（219〜232章）🌍🚀
 
 * **第219章：`npm run build` と `npm start` の意味🏗️**
 * **第220章：本番環境の環境変数（管理のコツ）🔐**
@@ -378,7 +378,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🏁 Module 18：卒業制作（企画→実装→公開）🎓✨（233〜244章）
+## 🏁 Module 18：卒業制作（企画→実装→公開）🎓✨（233〜244章）
 
 * **第233章：卒業制作テーマ決め（3案から選ぶ）🎯**
 * **第234章：要件を紙に書く（画面/機能/データ）📝**
@@ -393,7 +393,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 * **第243章：リファクタリング（読めるコードへ）🧼**
 * **第244章：ゴール！次に学ぶ道（API/Edge/複雑UI）🚀🎉**
 
-# 🛡️ Module 19：運用保守・エコシステム（245〜254章）🛠️
+## 🛡️ Module 19：運用保守・エコシステム（245〜254章）🛠️
 
 * **第245章：バージョンアップとセキュリティ更新の心得🛡️**
 * **第246章：`revalidateTag` で「更新ボタン」を作る🧊**
@@ -408,7 +408,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🏺 Module 20：App Router時代の状態管理（Server連携特化）（255〜264章）🧬
+## 🏺 Module 20：App Router時代の状態管理（Server連携特化）（255〜264章）🧬
 
 * **第255章：Server ComponentsとクライアントStateの境界線（どこまでProps？どこからState？）🪣**
 * **第256章：Zustand/Jotaiへの初期値注入（Hydrationパターン）🐻**
@@ -423,7 +423,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🐼 Module 21：次世代スタイリング（Panda CSS）（265〜274章）💅⚡
+## 🐼 Module 21：次世代スタイリング（Panda CSS）（265〜274章）💅⚡
 
 * **第265章：なぜPanda CSSか？（Zero-Runtime & Type-Safe）🐼**
 * **第266章：インストールとセットアップ（Next.js設定）🧱**
@@ -438,7 +438,7 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 
 ---
 
-# 🤖 Module 22：次世代バリデーション（Valibot）（275〜284章）🛡️⚡
+## 🤖 Module 22：次世代バリデーション（Valibot）（275〜284章）🛡️⚡
 
 * **第275章：なぜValibotか？（Bundle Size & Modular）🤖**
 * **第276章：基本のスキーマ定義と検証（`safeParse`）🧪**
