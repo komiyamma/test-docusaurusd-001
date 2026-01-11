@@ -1,4 +1,4 @@
-# 挫折しない Next.js（2025版 / App Router中心）教材アウトライン 📚✨（全244章）
+# 挫折しない Next.js（2025版 / App Router中心）教材アウトライン 📚✨（全284章）
 
 Next.js は **App Router が基本**になっていて、**React 19 系の流れ（Server Components / Server Actions / Suspense）**とめちゃ相性いいよ〜！😊💡（Next.js 16 は React 19.2 系の機能も取り込みつつ進化中だよ） ([Next.js][1])
 新規は `create-next-app@latest` で始めるのが最短ルート！🚀 ([Next.js][2])
@@ -389,19 +389,62 @@ Next.jsの Server Actions は、フォーム送信をかなり自然にしてく
 * **第243章：リファクタリング（読めるコードへ）🧼**
 * **第244章：ゴール！次に学ぶ道（API/Edge/複雑UI）🚀🎉**
 
-# 🚀 Module 19：おまけ（245～248章）🛠️
+# 🛡️ Module 19：運用保守・エコシステム（245〜254章）🛠️
 
-* **第245章：アップデートとセキュリティ運用のルーティン🛡️**
+* **第245章：バージョンアップとセキュリティ更新の心得🛡️**
 * **第246章：`revalidateTag` で「更新ボタン」を作る🧊**
 * **第247章：安全なアップデート手順と codemod 🤖**
-* **第248章：`revalidatePath` と `revalidateTag` の使い分け🔁**
+* **第248章：`revalidatePath` vs `revalidateTag` 🔁**
+* **第249章：ログ設計：何をどこに出す？（Console/File/Service）📝**
+* **第250章：エラー追跡の導入（Sentry等の概念）🧯**
+* **第251章：バンドルサイズなどパフォーマンス計測の基礎（@next/bundle-analyzer）📈**
+* **第252章：CI/CDパイプラインの役割（GitHub Actions等）🤖**
+* **第253章：Vercel以外のデプロイ（Docker/Self-hosting 概念）🐳**
+* **第254章：運用中の「困った」に対処するトラブルシューティング💡**
 
 ---
 
-必要なら、このアウトラインをベースにして **「各章のねらい」「5分説明→10分実装→3分ふりかえり」みたいな授業用テンプレ**も一緒に作れるよ〜！😊💖
+# 🏺 Module 20：App Router時代の状態管理（Server連携特化）（255〜264章）🧬
 
-[1]: https://nextjs.org/blog/next-16?utm_source=chatgpt.com "Next.js 16"
-[2]: https://nextjs.org/docs/app/getting-started/installation?utm_source=chatgpt.com "Getting Started: Installation"
-[3]: https://nextjs.org/docs/app/guides/caching?utm_source=chatgpt.com "Guides: Caching"
-[4]: https://nextjs.org/docs/app/getting-started/updating-data?utm_source=chatgpt.com "Getting Started: Updating Data"
-[5]: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components?utm_source=chatgpt.com "Critical Security Vulnerability in React Server Components"
+* **第255章：Server ComponentsとクライアントStateの境界線（どこまでProps？どこからState？）🪣**
+* **第256章：Zustand/Jotaiへの初期値注入（Hydrationパターン）🐻**
+* **第257章：Route Handlers/Server ActionsからのState更新🤝**
+* **第258章：URL State Management（`nuqs`を活用する）🔗**
+* **第259章：Cookieをストアの永続化に使う（サーバーサイドでの読み書き）🍪**
+* **第260章：Context API は Server Components 時代にどう使う？🔦**
+* **第261章：Optimistic UI の深掘り（useOptimistic 実践）✨**
+* **第262章：複数コンポーネント間の連携パターン（Event vs State）🧵**
+* **第263章：サーバーで持つべき状態 vs クライアントで持つべき状態⚖️**
+* **第264章：ミニ課題：複雑な検索フィルターの状態管理🔍**
+
+---
+
+# 🐼 Module 21：次世代スタイリング（Panda CSS）（265〜274章）💅⚡
+
+* **第265章：なぜPanda CSSか？（Zero-Runtime & Type-Safe）🐼**
+* **第266章：インストールとセットアップ（Next.js設定）🧱**
+* **第267章：基本のスタイリング（`css()` 関数）🎨**
+* **第268章：Recipes でバリエーションを作る（Button等）🧂**
+* **第269章：Slot Recipes で複合コンポーネントを作る（Card, Dialog）🍱**
+* **第270章：Patterns でレイアウトを組む（Stack, Grid）📐**
+* **第271章：Design Tokens と Theming（色はこう管理する）🎨**
+* **第272章：JSX Style Props の是非と設定（`<Box p={4} />`）🤔**
+* **第273章：Tailwind からの移行/共存戦略⚔️**
+* **第274章：ミニ課題：Panda CSS でコンポーネントカタログを作る📖**
+
+---
+
+# 🤖 Module 22：次世代バリデーション（Valibot）（275〜284章）🛡️⚡
+
+* **第275章：なぜValibotか？（Bundle Size & Modular）🤖**
+* **第276章：基本のスキーマ定義と検証（`safeParse`）🧪**
+* **第277章：データ型ごとのバリデーション（String/Number/Date）🔢**
+* **第278章：Server Actions での入力検証🛡️**
+* **第279章：APIレスポンスの型安全と検証📦**
+* **第280章：エラーメッセージの日本語化と平坦化（`flatten`）🇯🇵**
+* **第281章：カスタムバリデーションを作る（`check`）🔧**
+* **第282章：スキーマの合成と再利用（`merge`, `pick`）🧩**
+* **第283章：フォームライブラリ（Conform等）との連携概要📋**
+* **第284章：ミニ課題：堅牢な入力フォームとAPI通信🔒**
+
+
